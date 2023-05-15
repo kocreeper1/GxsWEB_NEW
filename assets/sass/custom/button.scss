@@ -1,0 +1,11 @@
+// button
+.el-button:focus {
+  // background-color: #aabe99 !important;
+  // color: #fff !important;
+}
+.el-button:hover,
+.el-button:focus {
+  background-color: #aabe99 !important;
+  color: #fff !important;
+  border: 1px solid #aabe99 !important;
+}

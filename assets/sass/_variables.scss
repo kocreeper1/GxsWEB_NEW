@@ -1,0 +1,80 @@
+@use './custom/button.scss' as *;
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  // do not use same name, it will override.
+  $colors:
+    (
+      'primary': (
+        'base': #f1e390,
+      ),
+      'success': (
+        'base': #ffe194,
+      ),
+      'warning': (
+        'base': #ffc107,
+      ),
+      'danger': (
+        'base': #dc3545,
+      ),
+      'info': (
+        'base': #17a2b8,
+      )
+    )
+);
+
+:root {
+  //---------------------------------------------
+  // 變量
+  //---------------------------------------------
+  --gxs-primary: #f1e390;
+  --gxs-secondary: #6c757d;
+  --gxs-success: #ffe194;
+  --gxs-danger: #dc3545;
+  --gxs-warning: #ffc107;
+  --gxs-info: #17a2b8;
+  --gxs-light: #f8f9fa;
+  --gxs-dark: #343a40;
+  --gxs-body: #212529;
+  --gxs-muted: #6c757d;
+  --gxs-white: #ffffff;
+  --gxs-black-50: #00000080;
+  --gxs-white-50: #a1a1a1;
+  --gxs-disable: #7dad4a4d;
+  --gxs-border: #dfdfdf;
+  --gxs-bg: #232323;
+
+  // shadow
+  --gxs-shadow-small: 0px 2px 4px 0px #00000013;
+  --gxs-shadow-regular: 0px 8px 16px 0px #00000026;
+  --gxs-shadow-larger: 0px 16px 48px 0px #0000002d;
+
+  // font
+  --font-h1: 40px;
+  --font-h2: 32px;
+  --font-h3: 28px;
+  --font-h4: 24px;
+  --font-h5: 20px;
+  --font-h6: 16px;
+  --font-blockquote: 20px;
+
+  //---------------------------------------------
+  // 變更 element plus 主色
+  //---------------------------------------------
+  --el-color-primary: #f1e390;
+  --form-input-bg: #fcfcfc;
+  --form-view-bg: #ffffff;
+  --el-border-radius-base: 8px;
+  --el-color-danger: #dc3545;
+  --el-color-success: #ffe194;
+  --el-color-warning: #ffc107;
+  --el-color-info: #17a2b8;
+  --primary-text-color: #343a40;
+  --el-disabled-bg-color: #f1e2904d;
+  --el-text-color-placeholder: #f1e390;
+}
+
+// center
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
