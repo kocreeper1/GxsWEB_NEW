@@ -21,17 +21,17 @@ const menus = computed((): IMenuItem[] => [
     type: 'menu',
     text: '團隊',
     menu: [
-      { type: 'link', text: '關於Gxs', route: { path: '/' } },
-      { type: 'link', text: '團隊人員', route: { path: '/Team/TeamP2' } },
+      { type: 'link', text: '關於Gxs', route: { path: '/About/TeamP1' } },
+      { type: 'link', text: '團隊人員', route: { path: '/About/TeamP2' } },
     ],
   },
   {
     type: 'menu',
     text: '贊助',
     menu: [
-      { type: 'link', text: '經費用途', route: { path: '/' } },
-      { type: 'link', text: '經費用途', route: { path: '/' } },
-      { type: 'link', text: '贊助等級表、名單', route: { path: '/' } },
+      { type: 'link', text: '經費用途', route: { path: '/Donate/DonateP1' } },
+      { type: 'link', text: '贊助流程', route: { path: '/Donate/DonateP2' } },
+      { type: 'link', text: '贊助等級表、名單', route: { path: '/Donate/DonateP3' } },
     ],
   },
   {

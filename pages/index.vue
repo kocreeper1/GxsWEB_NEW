@@ -1,9 +1,9 @@
 <template>
     <div class="">
-        <Banner />
-        <ServerRun />
+        <H1 />
+        <H2 />
         <Line />
-        <WhiteList />
+        <H3 />
 
     </div>
 </template>

@@ -1,17 +1,21 @@
 <template>
     <div class="content">
-        <Comming />
+        <comming />
+        <donate1 />
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .content{
+    color: black;
     display: flex;
+    flex-direction: column;
     justify-content:center;
+    align-items: center;
     padding-top: 67px;
 }
 </style>

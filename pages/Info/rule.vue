@@ -1,12 +1,10 @@
 <template>
-    <section class="s3" id="s3">
+    <section class="rule" id="rule">
+        <!-- <div class="block"></div> -->
         <div class="content">
-
             <div class="title">
                 <span>伺服器規則</span>
             </div>
-
-            <!-- <Line /> -->
             
             <div class="box">
                 <div class="text">
@@ -27,7 +25,7 @@
 </script>
 
 <style lang="scss" scoped>
-.s3 {
+.rule {
     // background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('@/assets/img/gif.gif') no-repeat;
     background-color: #ffffff;
     // background-size: cover;
@@ -39,6 +37,12 @@
     justify-content: center;
     // align-items: center;
 
+    // .block{
+    //         height: 67px;
+    //         width: 100%;
+    //         background-color: #232323;
+    //     }
+
 
     .content {
         gap: 30px;
@@ -48,6 +52,7 @@
         /* 將內容以垂直方向排列 */
         flex-direction: column;
         align-items: center;
+
         .title {
             background: url('@/assets/img/rule.gif') no-repeat;
             background-size: cover;
